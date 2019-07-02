@@ -1,0 +1,22 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bulma
+@import "~bulma/bulma.sass";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-item img {
+  max-height: 3rem;
+}
+
+.has-background-gradient-warning {
+  background-image: linear-gradient(to left top, #f6fda0, #f6f884, #f8f366, #fbed43, #ffe600);
+}
